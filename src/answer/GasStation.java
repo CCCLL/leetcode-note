@@ -1,4 +1,4 @@
-package greedy;
+package answer;
 
 /**
  * @program: leetcode-notes
