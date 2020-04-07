@@ -21,10 +21,9 @@ public class LeetCode1282 {
             }
             map.get(groupSizes[i]).add(i);
             }
-        for (Integer integer : map.keySet()) {
+        for (Integer integer : map.keySet()) { //把剩余的组添加进结果中
             resList.add(map.get(integer));
         }
-
         return resList;
     }
 }
