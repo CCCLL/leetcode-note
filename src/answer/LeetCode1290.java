@@ -1,13 +1,7 @@
 package answer;
 
 public class LeetCode1290 {
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-        }
-    }
+
     //反转链表解法，纯属想练下反转链表
     public int getDecimalValue(ListNode head) {
         if (head.next==null){
