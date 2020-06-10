@@ -3,7 +3,7 @@ package answer;
 import java.util.LinkedList;
 import java.util.Queue;
 
-//错误答案
+
 public class LeetCode1315 {
     public int sumEvenGrandparent(TreeNode root) {
         int sum=0;
