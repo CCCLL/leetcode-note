@@ -6,10 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 public class LeetCode508 {
-    public static void main(String[] args) {
-        TreeNode root=TreeNode.getTreeNode(new Integer[]{new Integer(5),new Integer(2),new Integer(-3)});
-        new LeetCode508().findFrequentTreeSum(root);
-    }
     int max;
     public int[] findFrequentTreeSum(TreeNode root) {
         max=0;

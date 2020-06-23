@@ -6,17 +6,6 @@ import java.util.Map;
 
 //时间复杂度高
 public class LeetCode1457 {
-    public static void main(String[] args) {
-        new LeetCode1457().pseudoPalindromicPaths(TreeNode.getTreeNode(new Integer[]{
-                new Integer(2),
-                new Integer(3),
-                new Integer(1),
-                new Integer(3),
-                new Integer(1),
-                null,
-                new Integer(1)
-        }));
-    }
     int res;
     public int pseudoPalindromicPaths (TreeNode root) {
         res=0;

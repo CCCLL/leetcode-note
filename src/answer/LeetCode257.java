@@ -4,10 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LeetCode257 {
-    public static void main(String[] args) {
-        TreeNode root=TreeNode.getTreeNode(new Integer[]{new Integer(1),new Integer(2),new Integer(3),null,new Integer(5)});
-        new LeetCode257().binaryTreePaths(root);
-    }
+
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> res=new ArrayList<>();
         if (root==null) return res;

@@ -8,8 +8,16 @@ public class TreeNode {
     TreeNode(int x) {
         val = x;
     }
-    public static TreeNode getTreeNode(Integer[] ints){
-        return tb(ints,0);
+    public static TreeNode getTreeNode(int[] ints){
+        Integer[] integers=new Integer[ints.length];
+        for (int i = 0; i < ints.length; i++) {
+            if (ints[i]==0){
+                integers[i]=null;
+            }else {
+                integers[i]=new Integer(ints[i]);
+            }
+        }
+        return tb(integers,0);
     }
     private static TreeNode tb(Integer[] ints,int index){
         if (index>=ints.length) return null;
