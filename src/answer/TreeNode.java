@@ -11,11 +11,11 @@ public class TreeNode {
     public static TreeNode getTreeNode(int[] ints){
         Integer[] integers=new Integer[ints.length];
         for (int i = 0; i < ints.length; i++) {
-            if (ints[i]==0){
-                integers[i]=null;
-            }else {
+//            if (ints[i]==0){
+//                integers[i]=null;
+//            }else {
                 integers[i]=new Integer(ints[i]);
-            }
+//            }
         }
         return tb(integers,0);
     }

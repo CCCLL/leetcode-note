@@ -4,6 +4,7 @@ public class LeetCode671 {
     int min;
     long res;
     public int findSecondMinimumValue(TreeNode root) {
+
         if (root==null) return -1;
         min=root.val;
         res= Long.MAX_VALUE;
