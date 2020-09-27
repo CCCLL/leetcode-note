@@ -1,6 +1,7 @@
 package answer;
 
 public class LeetCode19 {
+    //先用q指针走出和头节点的相差数，再一起后移，直到q为null
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy=new ListNode(0);
         dummy.next=head;
