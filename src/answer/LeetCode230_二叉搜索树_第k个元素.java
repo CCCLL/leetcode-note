@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class LeetCode230 {
+public class LeetCode230_二叉搜索树_第k个元素 {
 
     public int kthSmallest(TreeNode root, int k) {
 
