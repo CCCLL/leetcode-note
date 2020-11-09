@@ -3,7 +3,7 @@ package answer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LeetCode77 {
+public class LeetCode77_回溯 {
     List<List<Integer>> res=new ArrayList<>();
     public List<List<Integer>> combine(int n, int k) {
 

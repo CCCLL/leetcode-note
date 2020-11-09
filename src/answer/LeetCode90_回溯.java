@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class LeetCode90 {
+public class LeetCode90_回溯 {
     public static void main(String[] args) {
-        System.out.println(new LeetCode90().subsetsWithDup(new int[]{1, 2, 2}));
+        System.out.println(new LeetCode90_回溯().subsetsWithDup(new int[]{1, 2, 2}));
     }
     List<List<Integer>> res=new ArrayList<>();
     public List<List<Integer>> subsetsWithDup(int[] nums) {

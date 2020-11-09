@@ -3,9 +3,9 @@ package answer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LeetCode46 {
+public class LeetCode46_回溯 {
     public static void main(String[] args) {
-        new LeetCode46().permute(new int[]{1,2});
+        new LeetCode46_回溯().permute(new int[]{1,2});
     }
     List<List<Integer>> res=new ArrayList<>();
     public List<List<Integer>> permute(int[] nums) {

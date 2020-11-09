@@ -3,7 +3,7 @@ package answer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LeetCode51 {
+public class LeetCode51_回溯 {
     List<List<String>> res=new ArrayList<>();
     public List<List<String>> solveNQueens(int n) {
         char[][] b=new char[n][n];

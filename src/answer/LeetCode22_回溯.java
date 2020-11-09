@@ -3,9 +3,9 @@ package answer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LeetCode22 {
+public class LeetCode22_回溯 {
     public static void main(String[] args) {
-        new LeetCode22().generateParenthesis(2);
+        new LeetCode22_回溯().generateParenthesis(2);
     }
     public List<String> generateParenthesis(int n) {
         int l=n;

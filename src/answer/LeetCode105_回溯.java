@@ -3,7 +3,7 @@ package answer;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LeetCode105 {
+public class LeetCode105_回溯 {
     Map<Integer,Integer> map;
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         map=new HashMap<>();

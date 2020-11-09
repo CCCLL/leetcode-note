@@ -4,9 +4,9 @@ package answer;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LeetCode106 {
+public class LeetCode106_回溯 {
     public static void main(String[] args) {
-        new LeetCode106().buildTree(new int[]{1,2,3,4},new int[]{3,2,4,1});
+        new LeetCode106_回溯().buildTree(new int[]{1,2,3,4},new int[]{3,2,4,1});
     }
     private Map<Integer,Integer> map;
     public TreeNode buildTree(int[] inorder, int[] postorder) {

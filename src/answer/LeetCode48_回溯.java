@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class LeetCode48 {
+public class LeetCode48_回溯 {
     public static void main(String[] args) {
-        System.out.println(new LeetCode48().combinationSum2(new int[]{1, 2, 2, 2, 5}, 5));
+        System.out.println(new LeetCode48_回溯().combinationSum2(new int[]{1, 2, 2, 2, 5}, 5));
     }
     List<List<Integer>> res=new ArrayList<>();
 
